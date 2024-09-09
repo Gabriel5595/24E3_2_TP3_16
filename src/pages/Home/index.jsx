@@ -1,9 +1,13 @@
+import StatusBadge from "../../components/StatusBadge"
 import styles from "./home.module.css"
 
 export default function Home() {
     return (
         <div>
-            <h1>Template</h1>
+            <StatusBadge status="active"/>
+            <StatusBadge status="inactive"/>
+            <StatusBadge status="pending"/>
+            <StatusBadge />
         </div>
     )
 }
